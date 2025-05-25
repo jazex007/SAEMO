@@ -9,14 +9,24 @@ VLASTNOSTI VHODNÉHO TELESKOPU :
 - Anténa s presne určeným : frekvenčným rozsahom a šírkou lúča.
 - Elektrický, počítačom riadený pozičný systém pre nastavenie pozície antény.
 - Riadiaci počítač s prístupom na internet, a internetovým pripojením.
-- Nízkošumový zosiľnovač.
+- Nízkošumový rádiofrekvenčný zosiľnovač.
 - Prijímač prepojený s riadiacim počítačom (napr. RTL-SDR).
+- Gyroskop a kompas.
 - GPS modul.
+- Zdroj elektrickej energie (priamo zo sieťe / akumulátor+elektráreň(napr. fotovoltický článok))
 
 
 Každá anténa teda musí spĺnať kritéria opomenuté vyššie.
 Každý prijímač musí mať riadiaci počítač ktorý má prístup na internet.
-Riadiaci počítač musí takisto bzť plne prepojený s pozičným systémom, prijímačom a gps modulom.
+Riadiaci počítač musí takisto byť plne prepojený s pozičným systémom, prijímačom a gps modulom.
 Riadiaci počítač je teda "mozog" teleskopu ktorý komunikuje so systémom SAEMO a ostatným hardvérom teleskopu.
+Pozičný systém (napr. 2 servá, horizontálne a vertikálne) ktorý nastaví pozíciu teleskopu (azimut a elevácia) ktorú mu pošle riadiaci počítač.
+Prijímač musí plne podporovať komunikáciu s riadiacim počítačom, preto je najvhodnejšia a najlacnejšia voľba RTL-SDR prijímač.
 
+
+DOMÁCA VÝROBA TELESKOPU
+
+V tejto časti si prejdeme ako čo najlacnejšie a najjednoduchšie vyrobiť vhodný teleskop.
+Výroba jednoduchého vhodného teleskopu sa dá realizovať pod 100€, záleží hlavne na cene prijímača a riadiaceho počítača.
+Pre zníženie ceny je vhodné použiť ľahké
 
