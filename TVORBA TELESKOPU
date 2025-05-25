@@ -1,1 +1,22 @@
+TVORBA TELESKOPU
+
+Pokiaľ sa chcete zúčastniť projektu Slovenského Amatérskeho ElektroMagnetického Observatória, musíte disponovať vhodným teleskopon.
+SAEMO je systém navrhnutý pre čo najlacnejšie a najjednoduchšie riešenia.
+V tomto súbore sa dozviete ktoré vlastnosti musí vhodný teleskop spĺnať, teda pokiaľ už disponujete teleskopom ktorý má dané vlastnosti nemusíte nutne pristúpiť k tvorbe nového.
+
+VLASTNOSTI VHODNÉHO TELESKOPU :
+
+- Anténa s presne určeným : frekvenčným rozsahom a šírkou lúča.
+- Elektrický, počítačom riadený pozičný systém pre nastavenie pozície antény.
+- Riadiaci počítač s prístupom na internet, a internetovým pripojením.
+- Nízkošumový zosiľnovač.
+- Prijímač prepojený s riadiacim počítačom (napr. RTL-SDR).
+- GPS modul.
+
+
+Každá anténa teda musí spĺnať kritéria opomenuté vyššie.
+Každý prijímač musí mať riadiaci počítač ktorý má prístup na internet.
+Riadiaci počítač musí takisto bzť plne prepojený s pozičným systémom, prijímačom a gps modulom.
+Riadiaci počítač je teda "mozog" teleskopu ktorý komunikuje so systémom SAEMO a ostatným hardvérom teleskopu.
+
 
