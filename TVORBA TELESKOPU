@@ -1,53 +1,19 @@
 TVORBA TELESKOPU
 
-Pokiaľ sa chcete zúčastniť projektu Slovenského Amatérskeho ElektroMagnetického Observatória, musíte disponovať vhodným teleskopon.
-SAEMO je systém navrhnutý pre čo najlacnejšie a najjednoduchšie riešenia.
-V tomto súbore sa dozviete ktoré vlastnosti musí vhodný teleskop spĺnať, teda pokiaľ už disponujete teleskopom ktorý má dané vlastnosti nemusíte nutne pristúpiť k tvorbe nového.
+Členom slovenského amatérskeho elektromagnetického observatória sa môže stať len prijímač plne kompatibilný.
+Pre zjednodušenie tvorby a integrácie bolo zavedené rozdelenie jednotvivých podsystémov prijímača.
 
-VLASTNOSTI VHODNÉHO TELESKOPU :
+Hlavný počítač - HP 
+Pozičný systém - PS
+Systém orientácie- SO
+Komunikačný systém - KS
+Systém merania - SM
 
-- Anténa s presne určeným : frekvenčným rozsahom a šírkou lúča.
-- Elektrický, počítačom riadený pozičný systém pre nastavenie pozície antény.
-- Riadiaci počítač s prístupom na internet, a internetovým pripojením.
-- Nízkošumový rádiofrekvenčný zosiľnovač.
-- Prijímač prepojený s riadiacim počítačom (napr. RTL-SDR).
-- Gyroskop a kompas.
-- GPS modul.
-- Zdroj elektrickej energie (priamo zo sieťe / akumulátor+elektráreň(napr. fotovoltický článok))
-
-
-Každá anténa teda musí spĺnať kritéria opomenuté vyššie.
-Každý prijímač musí mať riadiaci počítač ktorý má prístup na internet.
-Riadiaci počítač musí takisto byť plne prepojený s pozičným systémom, prijímačom a gps modulom.
-Riadiaci počítač je teda "mozog" teleskopu ktorý komunikuje so systémom SAEMO a ostatným hardvérom teleskopu.
-Pozičný systém (napr. 2 servá, horizontálne a vertikálne) ktorý nastaví pozíciu teleskopu (azimut a elevácia) ktorú mu pošle riadiaci počítač.
-Prijímač musí plne podporovať komunikáciu s riadiacim počítačom, preto je najvhodnejšia a najlacnejšia voľba RTL-SDR prijímač.
-
-
-DOMÁCA VÝROBA TELESKOPU
-
-V tejto časti si prejdeme ako čo najlacnejšie a najjednoduchšie vyrobiť vhodný teleskop.
-Výroba jednoduchého vhodného teleskopu sa dá realizovať pod 100€, záleží hlavne na cene prijímača a riadiaceho počítača.
-Pre zníženie ceny je vhodné použiť ľahké materiály a zľúčiť riadiaci počítač s pozičným systémo do jedného počítača.
-
-
-ZOSTAVA ZA _€  
-Vývojová doska NODE MCU ESP32 WiFi + Bluetooth   https://techfun.sk/produkt/vyvojova-doska-node-mcu-esp32-wifi-bluetooth/?attribute_pa_naspajkovane-piny=ano
-
-MG995 servomotor                                 https://www.gme.sk/v/1499969/mg995-servomotor-13kg-cm-360
-
-Gyroskop / akcelerometer MPU6050                 https://techfun.sk/produkt/gyroskop-akcelerometer-mpu6050/
-
-Elektronický kompas HMC5883L                     https://techfun.sk/produkt/elektronicky-kompas-hmc5883l/
-
-GPS modul NEO-M8M                                https://techfun.sk/produkt/gps-modul-neo-m8n/?attribute_pa_verzia=antena-micro-usb-konektor-sma-konektor
-
-
-
-
-
-
-
+Pri integrácií prijímača bude potrebné určiť hierarchiu a autonómiu jendotlivých podsystémov.
+SAEMO distribuuje veľké množstvo softvéru pre rôzne konfigurácie, od jednotlivých podsystémov po integrované hlavné počítače - IHP.
+IHP - integrovaný hlavný počítač je softvér pre hlavný počítač ktorý riadi všetky podsystémy v zátvorke.
+Najlacnejšie konfigurácie : 
+ESP32_IHP(HP-PS-OS-KS)
 
 
 
