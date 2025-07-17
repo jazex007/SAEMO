@@ -9,11 +9,7 @@ Systém orientácie- SO
 Komunikačný systém - KS
 Systém merania - SM
 
-Pri integrácií prijímača bude potrebné určiť hierarchiu a autonómiu jendotlivých podsystémov.
-SAEMO poskytuje veľké množstvo softvéru pre rôzne konfigurácie, od jednotlivých podsystémov po integrované hlavné počítače - IHP.
-IHP - integrovaný hlavný počítač je softvér pre hlavný počítač ktorý riadi všetky podsystémy v zátvorke.
-Najlacnejšie konfigurácie : 
-ESP32_IHP(HP-PS-OS-KS)
+
 
 
 
