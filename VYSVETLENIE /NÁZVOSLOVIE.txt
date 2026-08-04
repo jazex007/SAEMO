@@ -8,3 +8,21 @@ Medzinárodný výraz :
 VLBI - Very-Long-Baseline Interferometry - (sk) interferometria s obrovskými vzdialenosťami medzi prijímačmi.
 Rýdzo slovenský výraz :
 SVPKP - Spätné Vykresľovanie Priestorovo-Kmitočtového Prekryvu
+
+
+Medzinárodný výraz :
+Interference - (sk) interferencia, rušenie, superpozícia vĺn.
+Rýdzo slovenský výraz :
+Vlnový prekryv.
+
+
+Medzinárodný výraz :
+Frequency - (sk) frekvencia.
+Rýdzo slovenský výraz :
+Kmitočet.
+
+
+Medzinárodný výraz :
+Spatial frequency - priestorová frekvencia.
+Rýdzo slovenský výraz :
+Priestorový kmitočet.
