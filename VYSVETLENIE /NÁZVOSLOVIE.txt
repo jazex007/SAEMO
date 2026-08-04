@@ -1,1 +1,10 @@
 
+V rámci SAEMO je snaha využívať čo najviac rýdzoslovenské názvoslovie.
+
+
+
+
+Medzinárodný výraz :
+VLBI - Very-Long-Baseline Interferometry - (sk) interferometria s obrovskými vzdialenosťami medzi prijímačmi.
+Rýdzo slovenský výraz :
+SVPKP - Spätné Vykresľovanie Priestorovo-Kmitočtového Prekryvu
