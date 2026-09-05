@@ -1,1 +1,11 @@
-testt
+{
+  "ok": true,
+  "slug": "I89cdTth6ec",
+  "path": "/I89cdTth6ec",
+  "created": "2026-09-05T13:49:00+02:00",
+  "source": "temp",
+  "items": [
+    { "id": 1, "name": "prvy", "value": 3.14 },
+    { "id": 2, "name": "druhy", "value": 2.72 }
+  ]
+}
