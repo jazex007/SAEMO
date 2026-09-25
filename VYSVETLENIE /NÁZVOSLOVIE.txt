@@ -1,8 +1,10 @@
 
 V rámci SAEMO je snaha využívať čo najviac rýdzoslovenské názvoslovie.
 
+ODKAZY NA VYSVETLENIE: 
+kredit - SAEMO/VYSVETLENIE/kredit
 
-
+PREKLADY :
 
 Medzinárodný výraz :
 VLBI - Very-Long-Baseline Interferometry - (sk) interferometria s obrovskými vzdialenosťami medzi prijímačmi.
