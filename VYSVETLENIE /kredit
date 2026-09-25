@@ -1,0 +1,23 @@
+Kredit v rámci medzinárodného štandardu AEMO priamo predstavuje počet vĺn pozorovania.
+
+Inými slovami je to počet 2pi radiánov záznamu pozorovania. 
+Pri frekvencií 1Ghz predstavuje 1 sekundové pozorovanie 1000 000 000 kreditov, to sa odvíja od vzťahu k = t*f.
+
+A: ak môj prijímač prispeje ku 1 sekundovému pozorovaniu vlny kmitočtu 1Ghz, zarobím si 1 000 000 000 kreditov.
+B: za 1000 000 000 kreditov môžem plánovať pozorovania napríklad : 1Ghz, 1sec.
+                                                                    0.5Ghz, 2sec.
+                                                                   1Mhz, 1000sec.
+                                                                    500Mhz, 1sec,500mhz, 1sec.
+
+Príklady :
+B(vytváranie pozorovaní):
+meranie :   kmitočet :       čas:                 kredit :
+stav kreditu -                                 1000 000 000
+1.                 500mhz       1sec    cena -  500 000 000
+stav kreditu -                                  500 000 000
+2.                 500mhz       0,1sec  cena -  50 000 000
+stav kreditu -                                  450 000 000
+3.                 300mhz       1sec    cena -  300 000 000
+stav kreditu -                                  200 000 000
+1.                 1.4Ghz      0,001sec cena -  1 400 000
+stav kreditu -                                  198 600 000
